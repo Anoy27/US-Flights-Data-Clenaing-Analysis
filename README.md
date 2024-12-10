@@ -1,4 +1,4 @@
-# US Flights Data Cleaning
+# US Historical Flights Data Cleaning
 This repository contains my analysis of US flights data from 1995 to 2016. This .txt dataset is full of errors and messy data. So, the primary focus is to clean the data and then analyze it.
 
 ## Project Overview:
@@ -17,9 +17,8 @@ Origin_Airport_Code, Origin_Airport_Name, Origin_City, Dest_Airport_Code, Dest_A
 CRS_Dep_Time, Dep_Time, Wheels_off, Wheels_on, CRS_Arr_Time, Arr_Time, CRS_Elapsed_Time, and Actual_Elapsed_Time.
 Delays: Dep_Delay, Arr_Delay.
 
-The cleaning process addressed issues with null values, redundant information, incorrect formats, and other anomalies to optimize the dataset for machine learning workflows.
-
 ## Data Cleaning Process:
+The cleaning process addressed issues with null values, redundant information, incorrect formats, and other anomalies to optimize the dataset for machine learning workflows.
 The following steps were undertaken to clean and transform the data:
 
 ### Column Usability Enhancements:
